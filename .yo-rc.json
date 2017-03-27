@@ -1,0 +1,18 @@
+{
+  "generator-angular-meteor": {
+    "filters": {
+      "coffee": true,
+      "jade": true,
+      "stylus": true,
+      "pagination": false,
+      "framework": "none",
+      "auth": false,
+      "appname": "loadfeedsApp",
+      "projectname": "loadfeeds",
+      "modules": "'angular-meteor'\n  'ui.router'",
+      "usedBower": false,
+      "bower": false
+    },
+    "appname": "loadfeeds"
+  }
+}

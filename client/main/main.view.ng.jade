@@ -1,0 +1,15 @@
+.main
+  h1 Things
+  form(ng-submit='save()', name='form', novalidate='')
+    p Add a thing
+    div
+      label Name
+      input(ng-model='newThing.name', placeholder='Name')
+      input(type='submit', value='Add')
+  ul
+    li(ng-repeat='thing in things')
+      p {{thing.name}}
+        button(ng-click='remove(thing)') &times;
+
+  p Total number of things: {{things.length}}
+span(flex='')
